@@ -23,7 +23,7 @@ function downloadZip (){
     #=====================================================================================
     # IMPORTANT: See below exmaple for line 33 & 39
     #=====================================================================================
-    # Invoke-WebRequest https://github.com/broken-e/DragDropConfirm/archive/refs/heads/master.zip -OutFile C:\TempDownload\download.zip
+    # Invoke-WebRequest https:/xxx.xxx.xxx/master.zip -OutFile C:\TempDownload\download.zip
     #=====================================================================================
         
     mkdir C:\TempDownload
