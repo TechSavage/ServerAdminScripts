@@ -1,2 +1,5 @@
 Get-ChildItem -Path C:\Temp -Include * -File -Recurse -ErrorAction SilentlyContinue | foreach { $_.Delete()} ;  Get-ChildItem -Path C:\Windows\temp -Include * -File -Recurse -ErrorAction SilentlyContinue | foreach { $_.Delete()} ;Get-ChildItem c:\ -r -ErrorAction SilentlyContinue –Force |sort -descending -property length | select -first 20 name, DirectoryName, @{Name="MB";Expression={[Math]::round($_.length / 1MB, 2)}}
  
+# FINAL NOTES
+# 1) Yes, I probably could have writen this better...
+# 2) I take absolutely no responsibility to what these scripts do to you or your devices, you are the one running them :)
